@@ -17,7 +17,7 @@ export default {
   },
   provide() {
     return {
-      updateParentValueEvent: this.updateParentValue,
+      updateParent: this.updateParentValue,
     };
   },
   methods: {
